@@ -59,17 +59,6 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        dataStateObserver()
-    }
-
-    fun dataStateObserver() {
-//            viewModel.dataList.observe(this){
-//                when (it) {
-//                    is Resource.Success<*> ->  AppLog.d("Amit ","Main Success[data=${it.data}]")
-//                    is Resource.Failure -> AppLog.d("Amit ","Main Error[exception=${it.message}]")
-//                    is Resource.Loading<*> -> AppLog.d("Amit ","Main Loading")
-//                }
-//            }
     }
 }
 
